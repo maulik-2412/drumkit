@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Slackside+One&display=swap');
+
+html{
+    min-height: 100%;
+    margin:0;
+    width:100%;
+}
+body{
+    text-align: center;
+    background-image:linear-gradient(to bottom right,antiquewhite,red);
+    background-repeat: no-repeat;
+    min-height: 100%;
+    margin:0;
+}
+
+h1{
+    font-size: 4.5rem;
+    font-family: "Slackside One", cursive;
+    color: #73A9AD;
+    text-shadow: 16px 13px 10px;
+}
+
+.key{
+    width: 150px;
+    font-size: 2.5rem;
+    height:150px;
+    border-radius: 5%;
+    border-width: 10px;
+    margin:2% 1.5%;
+    font-family: "Kode Mono", monospace;
+    
+}
+.active{
+    box-shadow: 4px 6px 14px 13px;
+    opacity:.5;
+}
+.container{
+    margin: 7% auto;
+}
+.q{
+    background-image: url(images/crash.png);
+}
+.w{
+    background-image: url(images/tom1.png);
+    background-size: cover;
+}
+.e{
+    background-image: url(images/tom2.png);
+    background-size: cover;
+
+}
+.r{
+    background-image: url(images/tom3.png);
+    background-size: cover;
+}
+.b{
+    background-image: url(images/snare.png);
+}
+.n{
+    background-image: url(images/kick.png);
+    background-size: cover;
+}
+.m{
+    background-image: url(images/tom4.png);
+    background-size: cover;
+}
